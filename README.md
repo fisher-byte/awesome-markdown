@@ -47,6 +47,12 @@ Note: :octocat: stands for the GitHub page and :gem: stands for the RubyGems pag
 - [Awesome Carve](https://github.com/markup-carve/awesome-carve) - curated list of Carve resources, tools, and libraries
 
 
+**GEML (General Expressive Markup Language)** (web: <https://geml-spec.github.io/geml/>, github: <https://github.com/geml-spec/geml>) - by the geml-spec project; a plain-text markup language that keeps Markdown's prose and replaces its many special-case blocks with one typed block, `=== type {attrs}`, for code, tables, math, diagrams, data, notes and embeds. Every block is addressable by `#id`, references are checked at build time, and a `.gemlhistory` sidecar keeps block-level history. Its reference parser also reads plain Markdown files directly.
+
+- [GEML Specification](https://github.com/geml-spec/geml/blob/main/spec/GEML-spec.md)
+- [GEML Playground](https://geml-spec.github.io/geml/playground/) - edit on the left, rendered on the right, with the build verdict live
+
+
 
 Yes, you can!  Add your improved beyond markdown light markup syntax / language here.
 
@@ -464,7 +470,6 @@ a free web alternative to PowerPoint and Keynote in Ruby
 - [doc2md :octocat:](https://github.com/orangefineblue/doc2md) - high-fidelity PDF, DOCX, and PPTX to Markdown conversion pipeline with multi-extractor support (pymupdf, pdfplumber, MinerU), image extraction, per-image classification, and multi-stage quality control
 
 - [file2markdown.ai](https://file2markdown.ai) - AI-powered converter that turns PDFs, Word docs, and images into clean structured Markdown. Optimized for RAG pipelines and Obsidian. Free tier available (20 conversions/day).
-- [Markovo](https://markovo.net) [:octocat:](https://github.com/fisher-byte/markovo) - converts PDF, DOCX, PPTX, XLSX and authorized public pages (Google Docs, Notion, GitHub, Hacker News, YouTube) into clean, structured Markdown for agent context; Web, API, CLI and MCP entry points, remote MCP endpoint secured with OAuth 2.1; free tier with monthly Credits
 
 ### WordStar to Markdown
 - [ws2markdown](https://code.rosaelefanten.org/ws2markdown) - convert WordStar (.ws) into Markdown (.md) files
